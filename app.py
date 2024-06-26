@@ -9,8 +9,8 @@ import re
 
 app = Flask(__name__)
 
-processor = BlipProcessor.from_pretrained("Salesforce/blip-image-captioning-large")
-model = BlipForConditionalGeneration.from_pretrained("Salesforce/blip-image-captioning-large")
+processor = TFBlipProcessor.from_pretrained("Salesforce/blip-image-captioning-large")
+model = TFBlipForConditionalGeneration.from_pretrained("Salesforce/blip-image-captioning-large")
 
 def generate_caption(image_data):
         #raw_image = img.convert("RGB")
