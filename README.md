@@ -1,4 +1,4 @@
-AI Image Caption Generator
+#AI Image Caption Generator
 
 This service uses Salesforce BLIP transformer models to auto generate captions for image data (in base64 format)
 
